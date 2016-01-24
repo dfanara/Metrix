@@ -1,0 +1,16 @@
+{
+  "name": "metrics",
+  "version": "0.0.1",
+  "description": "MC Stats Alternative\u001b[H",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Daniel Fanara <fanardat16@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.4"
+  }
+}

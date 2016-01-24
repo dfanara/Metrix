@@ -23,7 +23,6 @@ app.use(function(req, res, next) {
     }
   }
 
-  console.log(req.headers);
   if(req.headers['cf-connecting-ip']) {
     req._ip = req.headers['cf-connecting-ip'];
   }else {

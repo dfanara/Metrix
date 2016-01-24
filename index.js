@@ -47,7 +47,7 @@ app.mongoClient.connect(config.mongo.host, function(err, db) {
 app.started = Date.now();
 
 console.log("[Web] Booting Web.")
-app.listen(80);
+app.listen(config.port);
 
 app.utils = require('./app/utils.js');
 app.countries = require('./app/countries.json');
